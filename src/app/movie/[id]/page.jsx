@@ -14,7 +14,7 @@ const page = async ({ params }) => {
 
     return (
         <div className='relative p-7 min-h-screen '>
-            <img fill style={{ objectFit: "cover" }} className="rounded-lg" src={`https://image.tmdb.org/t/p/original/${movieDetailds?.backdrop_path || movieDetailds?.poster_path}`} alt="ddd" />
+            <img fill style={{ objectFit: "cover" }} className="rounded-lg flex justify-center" src={`https://image.tmdb.org/t/p/original/${movieDetailds?.backdrop_path || movieDetailds?.poster_path}`} alt="ddd" />
             <div className='absolute top-10  p-2 rounded-md my-3 mx-6'>
                 <div className='text-4xl font-semibold my-3'>{movieDetailds?.title}</div>
                 <div className='w-1/2 font-semibold my-3'>{movieDetailds?.overview}</div>
