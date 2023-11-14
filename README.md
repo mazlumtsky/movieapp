@@ -3,7 +3,6 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 ## Getting Started
 
 First, run the development server:
-![hero_18FFyC](https://github.com/mazlumtsky/movieapp-nextjs/assets/104484087/72515be4-2c29-4914-af29-c6e041c0e5f1)
 
 
 ```bash
